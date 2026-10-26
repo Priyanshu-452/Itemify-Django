@@ -1,0 +1,17 @@
+<html>
+<body>
+<mark>Additems </mark>
+<form method="post">
+  {% csrf_token %}
+  <table align="center"border="2">
+  {{userform.as_table}}
+  <tr>
+   <td><input type="submit" value="Additems"/></td>
+   <td><input type="reset" value="Reset"/></td>
+    
+  </tr>
+  </table>
+</form>
+</body>  
+</html>
+   
